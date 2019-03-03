@@ -1,0 +1,32 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding: 10px 20px;
+
+  &__controls {
+    display: flex;
+    flex: 0 0 auto;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+
+  &__control {
+    margin-right: 20px;
+    font-weight: bold;
+  }
+
+  &__input {
+    margin-left: 15px;
+    font-weight: normal;
+  }
+
+  &__loader {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex: 1 1 auto;
+  }
+}

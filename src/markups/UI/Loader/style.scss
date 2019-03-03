@@ -1,0 +1,15 @@
+.loader {
+  position: relative;
+
+  &__item {
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    transform: translate(-50%, -50%);
+    transition: 400ms;
+    border-radius: 50%;
+    opacity: .8;
+    box-shadow: 0 0 7px 1px blue;
+  }  
+}
