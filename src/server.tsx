@@ -65,7 +65,7 @@ function renderHTML(appContent: any, css = '', state = {}) {
     <head> 
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width">
-      <title>Test task for ECO Software development</title>
+      <title>Test task for Qooco</title>
       ${css}
       <script>window.REDUX_STATE = ${JSON.stringify(state)}</script>
     </head>
